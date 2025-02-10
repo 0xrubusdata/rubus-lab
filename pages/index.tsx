@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css';
 
 const Home: FC = () => {
     const links = [
-      { href: "https://github.com/0xrubusdata/armind_os", label: "GitHub" },
+      { href: "https://github.com/0xrubusdata/", label: "GitHub" },
       { href: "https://x.com/Data0x88850", label: "X (Twitter)" },
     ];
 
