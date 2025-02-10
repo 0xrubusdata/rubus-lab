@@ -64,8 +64,8 @@ const Home: FC = () => {
           <h2>🚀 Get Involved</h2>
           <p>Follow us and contribute to the development of AI-driven automation.</p>
           <div className={styles.buttonContainer}>
-            <a href="https://github.com/0xrubusdata/armind_os" className={styles.button}>GitHub</a>
-            <a href="https://x.com/Data0x88850" className={styles.button}>X (Twitter)</a>
+            <a href="https://github.com/0xrubusdata/" target="_blank" className={styles.button}>GitHub</a>
+            <a href="https://x.com/Data0x88850" target="_blank" className={styles.button}>X (Twitter)</a>
           </div>
         </section>
       </div>  

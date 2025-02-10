@@ -19,9 +19,7 @@ const MainContent: React.FC<MainContentProps> = ({ description, links, typewrite
   return (
     <main className={styles.main}>
       <div className={styles.linksContainer}> {/* Add a container for the links */}
-        {links.map((link, index) => (
-          <ExternalLink key={index} link={link} />
-        ))}
+        {description}
       </div>
       <Typewriter lines={typewriterLines} />
     </main>
