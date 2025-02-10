@@ -19,7 +19,9 @@ export default function About() {
       </div>
       
       <div className={styles.section}>
-        <h2 className={styles.sectionTitle}>👨‍💻 The Creator</h2>
+        <h2 className={styles.sectionTitle}>
+          <img src="/icons8-favicon-16.ico" alt="0xRubusData" className={styles.icon01} /> The Creator
+        </h2>
         <p className={styles.text}>
           Rubus Lab was founded by an AI enthusiast and developer passionate about AI frameworks, automation, and intelligent agents.
           This project is a playground for experimenting with cutting-edge technologies in AI and distributed systems.
@@ -32,8 +34,8 @@ export default function About() {
           Follow us on our journey as we push the boundaries of AI-driven automation. Join the discussion and contribute to our open-source projects.
         </p>
         <div className={styles.links}>
-          <a href="https://github.com/0xrubusdata/armind_os" className={styles.link}>GitHub</a>
-          <a href="https://x.com/Data0x88850" className={styles.link}>X (Twitter)</a>
+          <a href="https://github.com/0xrubusdata/" target="_blank" className={styles.link}>GitHub</a>
+          <a href="https://x.com/Data0x88850"  target="_blank" className={styles.link}>X (Twitter)</a>
         </div>
       </div>
     </div>

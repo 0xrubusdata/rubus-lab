@@ -52,7 +52,7 @@ const Home: FC = () => {
             </div>
             <div className={styles.projectCard}>
               <h3>
-                <img src="/agents/Rubus-VMS.png" alt="Rubus-VMS" className={styles.icon01} /> Rubus-VMS
+                <img src="/agents/0xRubusVms.png" alt="Rubus-VMS" className={styles.icon01} /> Rubus-VMS
               </h3>
               <p>Vectorized Memory System for AI</p>
             </div>

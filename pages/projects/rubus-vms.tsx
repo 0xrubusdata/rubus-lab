@@ -5,7 +5,7 @@ export default function RubusVMS() {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>
-        <img src="/agents/Rubus-VMS.png" alt="Rubus-VMS" className={styles.icon01} /> Rubus-VMS
+        <img src="/agents/0xRubusVms.png" alt="Rubus-VMS" className={styles.icon01} /> Rubus-VMS
       </h1>
       <p className={styles.description}>
         Rubus-VMS is a Python-based system that converts structured database records into vectorized memory.

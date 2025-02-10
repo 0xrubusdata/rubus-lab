@@ -14,7 +14,7 @@ const agentsTop = [
   {
     name: "0xRubusVms",
     description: "Empowers AI agents with structured, persistent memory for smarter decisions.",
-    image: "/agents/Rubus-VMS.png",
+    image: "/agents/0xRubusVms.png",
     socials: {
       twitter: "https://x.com/",
     },

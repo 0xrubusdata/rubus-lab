@@ -32,7 +32,7 @@ const projects = [
     description: "A Python application that converts database-stored data into vector memory to feed AI agents.",
     link: "/projects/rubus-vms",
     alt: "Rubus-VMS",
-    img: "/agents/Rubus-VMS.png",
+    img: "/agents/0xRubusVms.png",
   },
 ];
 

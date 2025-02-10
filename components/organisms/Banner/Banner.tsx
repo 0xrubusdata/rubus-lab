@@ -3,17 +3,17 @@ import styles from "../../../styles/Banner.module.css";
 
 const agents = [
   "/agents/banner/0xRubusData.webp",
-  "/agents/banner/1xRubusData.webp",
-  "/agents/banner/BuddhistMonk.webp",
-  "/agents/banner/FirstFlight.webp",
-  "/agents/banner/Gothic.webp",
-  "/agents/banner/King.webp",
-  "/agents/banner/NeoclassicalPainter.webp",
-  "/agents/banner/Pachamama.webp",
-  "/agents/banner/Pirate.webp",
-  "/agents/banner/Robin.webp",
-  "/agents/banner/UnderwaterExplorer.webp",
-  "/agents/banner/VanGogh.webp",
+  "/agents/banner/0xRubusSentinel.webp",
+  "/agents/banner/0xRubusCipher.webp",
+  "/agents/banner/0xRubusEclipse.webp",
+  "/agents/banner/0xRubusPhantom.webp",
+  "/agents/banner/0xRubusShadow.webp",
+  "/agents/banner/0xRubusSpectre.webp",
+  "/agents/banner/0xRubusVms.webp",
+  "/agents/banner/0xRubusOracle.webp",
+  "/agents/banner/0xRubusCron.webp",
+  "/agents/banner/0xRubusGogh.webp",
+  "/agents/banner/0xRubusNeoclassical.webp",
 ];
 
 const Banner: React.FC = () => {
