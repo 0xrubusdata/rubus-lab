@@ -13,10 +13,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   const navLinks = [
     { label: 'Home', path: '/' },
     { label: 'About', path: '/about' },
-    { label: 'ArmindOS', path: '/armindos' },
-    { label: 'Roadmap', path: '/roadmap' },
+    { label: 'Projects', path: '/projects' },
     { label: 'Agents', path: '/agents' }, 
-    { label: 'Blog', path: '/blog' },
+    { label: 'Blog', path: '/' },
     { label: 'Contact', path: '/' },
   ];
 

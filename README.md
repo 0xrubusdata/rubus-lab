@@ -4,7 +4,7 @@ Welcome to the 0xRubusData website repository! This is a simple website designed
 
 ## Live Demo
 
-You can view the live site at the following URL: [RubusData Website](https://simple-agent-website.vercel.app/)
+You can view the live site at the following URL: [RubusData Website](https://rubus-lab.vercel.app/)
 
 ## About
 
