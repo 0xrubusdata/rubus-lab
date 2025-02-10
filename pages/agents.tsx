@@ -1,48 +1,100 @@
 import React from "react";
 import styles from "../styles/Agents.module.css";
 
-const agents = [
+const agentsTop = [
   {
-    name: "1xrubusdata - Weather AI",
-    description: "Creates haikus about the weather and posts them on X.",
-    image: "/agents/1xrubusdata/1xrubusdata-full.jpg",
-    socials: {
-      twitter: "https://twitter.com/",
-    },
-    status: "In Development",
-  },
-  {
-    name: "0xrubusdata",
-    description:
-      "Analyzes crypto data and predicts trends to help you make informed decisions.",
-    image: "/agents/0xrubusdata/0xrubusdata-full.jpg",
+    name: "0xRubusData",
+    description: "Analyzes crypto data and predicts trends to help you make informed decisions.",
+    image: "/agents/0xrubusdata/0xrubusdata-removebg.png",
     socials: {
       twitter: "https://x.com/Data0x88850",
     },
     status: "Active",
   },
   {
-    name: "TBD",
-    description:
-      "Art critic.",
-    image: "/agents/banner/NeoclassicalPainter.webp",
+    name: "0xRubusVms",
+    description: "Empowers AI agents with structured, persistent memory for smarter decisions.",
+    image: "/agents/Rubus-VMS.png",
     socials: {
       twitter: "https://x.com/",
     },
     status: "In Development",
   },
   {
-    name: "101xrubusdata",
-    description:
-      "Social Media Moderator.",
-    image: "/agents/101xrubusdata/101xrubusdata.png",
+    name: "0xRubusOracle",
+    description: "Safeguards AI strategies by verifying critical decisions before execution.",
+    image: "/agents/ollama.png",
     socials: {
       twitter: "https://x.com/",
     },
     status: "In Development",
   },
-  
-  // Ajoute d'autres agents ici
+  {
+    name: "0xRubusCron",
+    description: "Continuously gathers and updates data sources to fuel AI intelligence.",
+    image: "/agents/Rubus-Cron.png",
+    socials: {
+      twitter: "https://x.com/",
+    },
+    status: "In Development",
+  },
+];
+
+const agentsBottom = [
+  {
+    name: "0xRubusSentinel",
+    description: "Monitors, validates, and controls AI security operations to ensure ethical and legal compliance.",
+    image: "/agents/0xRubusSentinel.png",
+    socials: {
+      twitter: "https://x.com/",
+    },
+    status: "In Development",
+  },
+  {
+    name: "0xRubusPhantom",
+    description: "General Recon & Pentesting (vulnerability scanning, basic exploitation).",
+    image: "/agents/0xRubusPhantom.png",
+    socials: {
+      twitter: "https://x.com/",
+    },
+    status: "In Development",
+  },
+  {
+    name: "0xRubusShadow",
+    description: "Exfiltration & Network Sniffing (leak detection and network packet analysis).",
+    image: "/agents/0xRubusShadow.png",
+    socials: {
+      twitter: "https://x.com/",
+    },
+    status: "In Development",
+  },
+  {
+    name: "0xRubusCipher",
+    description: "Bruteforce & Cryptanalysis (password and encryption strength testing).",
+    image: "/agents/0xRubusCipher.png",
+    socials: {
+      twitter: "https://x.com/",
+    },
+    status: "In Development",
+  },
+  {
+    name: "0xRubusSpectre",
+    description: "Social Engineering & Phishing Simulation (human vulnerability testing).",
+    image: "/agents/0xRubusSpectre.png",
+    socials: {
+      twitter: "https://x.com/",
+    },
+    status: "In Development",
+  },
+  {
+    name: "0xRubusEclipse",
+    description: "Red Team Offensive Ops (advanced simulations of internal/external attacks).",
+    image: "/agents/0xRubusEclipse.png",
+    socials: {
+      twitter: "https://x.com/",
+    },
+    status: "In Development",
+  },
 ];
 
 export default function Agents() {
@@ -50,7 +102,41 @@ export default function Agents() {
     <div className="container mx-auto px-4 py-8">
       <h1 className={styles.title}>Our Agents</h1>
       <div className={styles.AgentGrid}>
-        {agents.map((agent, index) => (
+        {agentsTop.map((agent, index) => (
+          <div key={index} className={styles.AgentCard}>
+            <img
+              src={agent.image}
+              alt={agent.name}
+              className={styles.AgentImage}
+            />
+            <h2 className={styles.AgentName}>{agent.name}</h2>
+            <p className={styles.AgentDescription}>{agent.description}</p>
+            <div className={styles.AgentSocials}>
+              {agent.socials.twitter && (
+                <a
+                  href={agent.socials.twitter}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Twitter
+                </a>
+              )}
+            </div>
+            <p
+              className={`${styles.AgentStatus} ${
+                agent.status === "Active"
+                  ? styles.Active
+                  : styles.InDevelopment
+              }`}
+            >
+              {agent.status}
+            </p>
+          </div>
+        ))}
+      </div>
+
+      <div className={styles.AgentGrid}>
+        {agentsBottom.map((agent, index) => (
           <div key={index} className={styles.AgentCard}>
             <img
               src={agent.image}
