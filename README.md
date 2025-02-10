@@ -78,3 +78,16 @@ The metaverse is powered by a **crypto-based economy**, where users earn, stake,
 
 🚀 **AI Agents Metaverse - The Future is Autonomous** 🤖
 
+---
+
+## 📝 **Author**
+- 👤 0xRubusData 
+- 📧 Contact: 0xRubusData@gmail.com
+- 🌍 GitHub: https://github.com/0xrubusdata/rubus-lab
+
+## 🌐 Connect with Us
+- **Twitter (X)**: [0xRubusData](https://x.com/Data0x88850)
+- **Website**: [RubusLab](https://rubus-lab.vercel.app/)
+
+## 🎯 **Happy Coding!** 🚀
+
