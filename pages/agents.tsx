@@ -40,7 +40,7 @@ const agentsTop = [
   },
 ];
 
-const agentsBottom = [
+const agentsHack = [
   {
     name: "0xRubusSentinel",
     description: "Monitors, validates, and controls AI security operations to ensure ethical and legal compliance.",
@@ -97,6 +97,63 @@ const agentsBottom = [
   },
 ];
 
+const agentsSpiritual = [
+  {
+    name: "0xRubusSage",
+    description: "Ultimate guardian of the network, master of knowledge and supreme validator of the actions of all your agents. 🔵💡A cyber-mystical being with a powerful aura, floating in a sacred digital space. 🌌🔥",
+    image: "/agents/0xRubusSage.png",
+    socials: {
+      twitter: "https://x.com/",
+    },
+    status: "In Development",
+  },
+  {
+    name: "0xRubusDeva",
+    description: "",
+    image: "/agents/0xRubusDeva.png",
+    socials: {
+      twitter: "https://x.com/",
+    },
+    status: "In Development",
+  },
+  {
+    name: "0xRubusDharma",
+    description: "",
+    image: "/agents/0xRubusDharma.png",
+    socials: {
+      twitter: "https://x.com/",
+    },
+    status: "In Development",
+  },
+  {
+    name: "0xRubusKhalsa",
+    description: "",
+    image: "/agents/0xRubusKhalsa.png",
+    socials: {
+      twitter: "https://x.com/",
+    },
+    status: "In Development",
+  },
+  {
+    name: "0xRubusNoor",
+    description: "",
+    image: "/agents/0xRubusNoor.png",
+    socials: {
+      twitter: "https://x.com/",
+    },
+    status: "In Development",
+  },
+  {
+    name: "0xRubusPax",
+    description: "",
+    image: "/agents/0xRubusPax.png",
+    socials: {
+      twitter: "https://x.com/",
+    },
+    status: "In Development",
+  },
+];
+
 export default function Agents() {
   return (
     <div className="container mx-auto px-4 py-8">
@@ -136,7 +193,41 @@ export default function Agents() {
       </div>
 
       <div className={styles.AgentGrid}>
-        {agentsBottom.map((agent, index) => (
+        {agentsHack.map((agent, index) => (
+          <div key={index} className={styles.AgentCard}>
+            <img
+              src={agent.image}
+              alt={agent.name}
+              className={styles.AgentImage}
+            />
+            <h2 className={styles.AgentName}>{agent.name}</h2>
+            <p className={styles.AgentDescription}>{agent.description}</p>
+            <div className={styles.AgentSocials}>
+              {agent.socials.twitter && (
+                <a
+                  href={agent.socials.twitter}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Twitter
+                </a>
+              )}
+            </div>
+            <p
+              className={`${styles.AgentStatus} ${
+                agent.status === "Active"
+                  ? styles.Active
+                  : styles.InDevelopment
+              }`}
+            >
+              {agent.status}
+            </p>
+          </div>
+        ))}
+      </div>
+
+      <div className={styles.AgentGrid}>
+        {agentsSpiritual.map((agent, index) => (
           <div key={index} className={styles.AgentCard}>
             <img
               src={agent.image}

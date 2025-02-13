@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styles from "../../../styles/Banner.module.css";
 
 const agents = [
+  "/agents/banner/0xRubusSage.webp",
   "/agents/banner/0xRubusData.webp",
   "/agents/banner/0xRubusSentinel.webp",
   "/agents/banner/0xRubusCipher.webp",
@@ -14,6 +15,11 @@ const agents = [
   "/agents/banner/0xRubusCron.webp",
   "/agents/banner/0xRubusGogh.webp",
   "/agents/banner/0xRubusNeoclassical.webp",
+  "/agents/banner/0xRubusPax.webp",
+  "/agents/banner/0xRubusNoor.webp",
+  "/agents/banner/0xRubusKhalsa.webp",
+  "/agents/banner/0xRubusDharma.webp",
+  "/agents/banner/0xRubusDeva.webp",
 ];
 
 const Banner: React.FC = () => {
